@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+    <style>
+        :root{
+            /* Variable creation  */
+            --primary-color:red;
+            --custom-width:330px
+        }
+        .container{
+            height: 700px;
+            width: 700px;
+            background-color: var(--primary-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            height: var(--custom-width);
+            width: 330px;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /*           X   Y     blur  color */
+            /* text-shadow: 9px 10px 4px var(--primary-color);  */
+            /* Multiple text shaow */
+            text-shadow: 9px 10px 2px green , 15px 15px 2px red; 
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+           <h1> Welcome to college</h1>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+
+        .container{
+         position: relative;
+          border: solid 2px;
+          background-color: blueviolet;
+          padding-bottom: 900px;
+        }
+
+        .image2{
+            position: relative;
+           top: 100px;
+        }
+        .image3{
+          /* position:absolute;
+          top: 150px;  */
+           /* it does not contain gap */
+        }
+        .image4{
+             position: fixed; 
+
+        }
+        .image5{
+            top: 100px;
+            position: sticky;
+            
+        }
+        .box{
+            padding: 900px;
+            background-color: chocolate;
+        }
+        .image6{
+            position:sticky;
+        }
+        img{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <img src="T0NA.gif" alt="1111" height="300px" width="200px" class="image1">1
+        <img src="T0NA.gif" alt="2222" height="300px" width="200px" class="image2">2
+        <img src="T0NA.gif" alt="3333" height="300px" width="200px" class="image3" >3
+        <img src="T0NA.gif" alt="4444" height="300px" width="200px" class="image4">4
+        <img src="T0NA.gif" alt="5555" height="300px" width="200px" class="image5">5
+        <img src="T0NA.gif" alt="6666" height="300px" width="200px" class="image6">6
+    </div>
+    <div class="box">
+
+    </div>
+</body>
+</html>

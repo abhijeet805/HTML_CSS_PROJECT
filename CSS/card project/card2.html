@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card2</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+         .container{
+            height: 100vh; width: 100vw;
+            background-color: #0093E9;
+           background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+           
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           }
+
+           .card{
+            height: 570px;
+            width:  400px;
+            background-color: white;
+            border-radius: 10px;
+            /* overflow: auto; */
+            display: flex;
+            flex-direction: column;
+            
+           }
+           .card img{
+             height: 200px;
+             width: 400px;
+             border-top-left-radius:10px ;
+             border-top-right-radius:10px ;
+             
+            }
+            /* h2{
+                align-self: center;
+                margin: 30px;
+            } */
+            #plan{
+                height: 10%;
+                width: 83%;
+                margin-top: 20px;
+                margin-left: 30px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                justify-content:space-between;
+                background-color: #80D0C7;
+                
+            }           
+            .amt{
+                /* background-color: #0093E9; */
+                width: 50%;
+                height: 90%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                /* margin-top: 8px; */
+            }
+            .change a{
+                margin-right: px;
+            }
+
+            #plan img{
+               height: 40px;
+               width: 40px;
+                margin-left: 7px;
+                border-radius: 5px; 
+            }
+            #plan a{
+               font-size: 20px;
+            }
+            .payment{
+                width: 80%;
+                height: 9%;
+                margin-top: 20px;
+                margin-left: 40px;
+                background-color: rgb(16, 16, 56);
+                color: white;
+                box-shadow: 0px 45px 65px rgba(0,0,0,0.50), 0 35px 22px rgba(0,0,0,0.16);
+            }
+           .textbox{
+            width:350px;
+            height: 150px;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:20px;
+            text-align: center;
+            margin-left: 20px;
+           }
+           .cancel {
+            width: 30%;
+            height: 10%;
+            text-decoration: none;
+            margin-top: 20px;
+            align-self: center;   
+        }
+        .cancel a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+     <div class="container">
+        <div class="card">
+           <img src="images/p2.jpeg" alt="">
+
+           <div class="textbox">
+            <h2>Order Summury</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet doloribus facere ex reiciendis nisi esse voluptatum rem expedita pariatur voluptatem.</p>
+         
+           </div>
+           
+         <div id="plan">
+            <div class="amt">
+            
+                <img src="images/p3.jpeg" alt="">
+                <h3>Annual plan<br>$99.9/year</h3>
+            
+            </div>
+            
+            <div class="change">
+                <a href="#"  >Change</a>
+            </div>
+            
+         </div>
+          
+         <button class="payment">
+            Proceed to payment
+         </button>
+          
+         <div class="cancel"><a href="#">change Order</a></div>
+                 
+        </div>
+     </div>
+</body>
+</html>

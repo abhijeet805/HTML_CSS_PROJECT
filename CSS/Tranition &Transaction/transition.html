@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+
+    <style>
+        .container{
+            height: 700px;
+            width: 1500px;
+            background-color: aqua;
+        }
+        .box
+        {
+        height: 400px;
+            width: 400px;
+            background-color: blue;
+            border: 2px solid black;
+            transition-property: all  /* width,height, */ ;
+            
+            transition-duration: 5s;
+            transition-delay:1s;
+            transition-timing-function: ease;
+          
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box:hover{
+            width: 1000px;
+            height: 800px;
+            background-color: green;
+        }
+        h1:hover{
+           color:chocolate;
+           font-size:50px
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+          <div class="box"><h1>Abhijeet</h1></div>
+     </div>
+</body>
+</html>

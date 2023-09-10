@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            height: 240px;
+            width: 500px;
+            background-color: crimson;
+           display: flex;
+           border: 2px solid yellowgreen;
+        }
+        .text{
+            background-color: gray;
+            width: 245px;
+            height: 200px;
+            border: 2px solid green;
+        }
+        img{
+            height: 200px;
+            width:240px;
+        }
+        .img{
+            background-color: yellow;
+            width: 240px;
+            height: 200px;
+            border: 2px solid blue;
+        }
+        #a1{
+            border: 1px solid black;
+            margin: 5px;
+            
+        }
+        #a2{
+            border: 1px solid black;
+            margin: 5px;
+        }
+
+        @media(max-width:640px)
+        {
+            .container{
+                flex-direction: column;
+                height: 500px;
+                width: 270px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <div id="a1">Text1</div>
+              <!-- You can take paragraph tag for reduced space comploxcity -->
+            <div id="a2">Text2</div>
+        </div>
+      
+        <div class="img">
+            <img src="t6.jpg" alt="aaa">
+        </div>
+    </div>
+</body>
+</html>
