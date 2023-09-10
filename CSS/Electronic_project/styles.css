@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+     height: 100vh; width: 100vw;
+     overflow-x: none;
+     background-color: #FFDEE9;
+     background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+     
+
+}
+.navcontainer{
+    width: 100%;height: 80px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav{
+    width: 100%;
+}
+#navlist{
+
+    margin-left: 10px;
+    margin-right: 20px;
+    list-style: none;
+    font-size: 2.5rem; 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+#logo{
+    font-size: 2.8rem;
+    color: white;
+}
+#items{
+    display: flex;
+    align-self: end;
+   gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+#logo1{
+    height: 79px; width: 140px;
+}
+
+.footerbox{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    text-align: center;
+    min-height: 30px;
+    
+}
+.footerbox p{
+    color: cadetblue;
+    font-size: 2rem;
+}
+
+.contentbox{
+    width: 70%;
+    margin: auto;
+    border: 2px solid black;
+    box-shadow: 30px 30px 200px blueviolet;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 40px;
+    border-top:solid 2px blueviolet;
+
+}
+.item h2{
+    padding-bottom: 15px;
+}
+
+#name{
+   color: rgb(100, 11, 76);
+   padding-left:400px ;
+   font-size: 60px;
+}
+#leftbox h2{
+    padding-left: 60px;
+    padding: 20px;
+}
+
+#list{
+    list-style: none;
+    padding-left: 80px;
+    font-size: 25px;
+}
+#list1{
+    list-style: none;
+    padding-left: 80px;
+    font-size: 25px;
+}
+.rightbox img{
+    height: 300px;
+    transition: all 0.6s linear 0s;
+}
+.rightbox img:hover{
+    transform:scale(1.1);
+}
+
+/* .rightbox{
+    width: 100px;
+    height: 100px; */
+/* }
+.overlay{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+    background-color: rgba(65, 64, 64, 0.351);  
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* css color website=  https://cssgradient.io/gradient-backgrounds/ */

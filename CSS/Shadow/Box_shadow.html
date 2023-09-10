@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shadow</title>
+    <style>
+        .container{
+            height: 700px;
+            width: 700px;
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            height: 330px;
+            width: 330px;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* font-size: 30px; */
+            /* box-shadow: 10px 20px brown; */
+            
+            /*              X     Y  Blur  color  */
+            /* box-shadow: 10px -20px 6px brown */
+            /*              X     Y  Blur spread color  */
+            /* box-shadow: 10px 20px 80px 80px brown */
+
+            /*             inside X     Y  Blur  color  */
+            /* box-shadow: inset 10px 20px 80px brown */
+                  /*    inside X     Y  Blur spread color  */
+            /* box-shadow: inset -10px -20px 80px 88px  brown */
+           /* Multiple shadow */
+            box-shadow: 10px 20px brown , 55px 25px green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+           <h1> Welcome to college</h1>
+        </div>
+    </div>
+</body>
+</html>

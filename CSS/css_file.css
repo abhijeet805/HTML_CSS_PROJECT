@@ -1,0 +1,33 @@
+.secondpara{
+    font-style: oblique;
+    /* font-size: 200px; */
+    background-color: rgb(18, 190, 206) !important;
+    border-style: double;
+    line-height: 16px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 55px;
+    padding: 105px 25px 35px 45px;
+}
+/* Group selector */
+article,h2{
+     background-color: rgb(44, 0, 139);
+     font-style: italic;
+     border-style: groove;
+     font-family: Arial, Helvetica, sans-serif;
+     border-radius: 30px;
+      width:700px;
+      border-color: blueviolet;
+      border-top:solid green 10px
+      /* Box model */
+     /* we cannot apply padding and margin in group selector  */
+     }
+     h2{
+        margin:20px 60px;
+        padding: 20px 40px;
+        width:350px;
+     }
+     article{
+        padding: 50px 25px;
+        margin:25px 20px;
+     }

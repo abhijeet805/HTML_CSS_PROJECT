@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            border: 5px solid black;
+            /* width:700px;*/
+            height: 700px; 
+            background-color: blueviolet;
+            display: flex;
+            /* flex-direction: column;
+            flex-direction: column-reverse; */
+            flex-direction: row-reverse;
+
+            /* All boxes are flex using flex  */
+        }
+
+        .box{
+            border:2px solid rgb(50,50,50);
+            height:200px;
+            width: 200px;
+            margin: 5px;
+            padding: 5px;
+        }
+        #box1{
+            background-color: orange;
+        }
+        #box2{
+            background-color: blue;
+        }
+        #box3{
+            background-color: red;
+        }
+        #box4{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+       <div class="container">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+       </div>
+</body>
+</html>

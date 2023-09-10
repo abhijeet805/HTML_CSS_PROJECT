@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+
+    <style>
+        .container{
+            height: 750px;
+            width: 1500px;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box
+        {
+        height: 400px;
+            width: 400px;
+            background-color: blue;
+            border: 2px solid black;
+            box-shadow:20px 20px 50px 15px brown,-20px -20px 50px 15px green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            transition:all 3s linear 1s;
+        }
+        .box:hover{
+           /* transform: rotate(50deg); */
+           /* transform: rotate(-50deg); */
+           /* transform:scale(2); */
+           /* transform:scale(-2); */
+           /* transform:skew(50deg); */
+           /* transform:skew(-50deg); */
+           /* transform:translate(500px); */
+           /* transform:translate(-500px); */
+           /* transform:translate(0,500px); */
+           /* transform:translate(0,-500px); */
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+          <div class="box">This is my box</div>
+     </div>
+</body>
+</html>
