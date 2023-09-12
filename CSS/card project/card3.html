@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card3</title>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(60, 60, 142);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            height: 500px;
+            width: 950px;
+            background-color: white;
+            display: flex;
+            
+        }
+        .leftbox{
+            height: 500px;
+            width: 475px;
+            background-color:rgb(69, 5, 69);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 70px;
+            padding: 40px; 
+        }
+        .rightbox{
+            height: 500px;
+            width: 475px;
+            /* background-image: url(images/p2.jpeg); */
+            
+        }
+
+        .rightbox img{
+            height: 500px;
+            width: 475px;
+        }
+       
+        .statebox{
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        #number{
+             font-size: 1.7rem;
+             font: bold;
+        }
+        #unit{
+            font-size: smaller;
+        }
+        #heading{
+            font-size: 1.3rem;
+        }
+        #para{
+            font-size: 1.0rem;
+        }
+    </style>
+</head>
+<body>
+     <div class="container">
+         <div class="card">
+            <div class="leftbox">
+               
+                    <div id="heading">
+                        <h1>Get insights that help your business grow</h1>
+    
+                    </div>
+                    <div id="para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique dignissimos dolor corporis earum ipsum praesentium accusamus nemo! In aliquam omnis ad eligendi id itaque sapiente. Illo voluptatibus facere corporis sit.</p>
+                
+                    </div>
+                
+                <div class="statebox">
+                    <div id="number">
+                        10k+
+                    </div>
+                    <div id="unit">
+                        comment
+                    </div>
+                    <div id="number">
+                        214
+                    </div>
+                    <div id="unit">
+                        Paid Users
+                    </div>
+                    <div id="number">
+                        12M+
+                    </div>
+                    <div id="unit">
+                        View
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="rightbox">
+              <img src="images/p2.jpeg" alt="">
+            </div>
+        </div>
+         </div>
+     
+</body>
+</html>
