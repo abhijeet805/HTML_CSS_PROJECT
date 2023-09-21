@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Q.1&2&3
+       let runagain=true;
+
+        const cardrive=(age)=>
+        {
+            return age>=18?true:false;
+        }
+
+        while(runagain)
+        {
+        let age=prompt("Enter a Age of person");
+        age=Number.parseInt(age);
+        
+        if(age<0)
+        {
+            console.error("Age is Negetive");
+        }
+        
+        if(cardrive(age))
+        {
+           alert("He can drive");
+        }
+        else{
+            alert("He can not drive");
+        }
+       runagain=confirm("Do you want to play again");
+     }
+
+     Q3
+
+
+    </script>
+</body>
+</html>

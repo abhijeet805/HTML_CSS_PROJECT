@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess_number</title>
+</head>
+<body>
+    
+    <Script>
+       let x=Math.floor(Math.random()*100);
+ 
+        let g=1;
+        while(true)
+        {
+            let u=prompt("Enter number to guess=");
+            u=Number.parseInt(u);
+           if(u==x)
+           {
+            alert("you Guess in "+g+" steps");
+             break;
+           }
+           else if(u<x)
+           {
+               alert("Your Number is Smaller,plaese enter greter number");
+               g++;
+            }
+           else if(u>x)
+           {
+            alert("Your Number is Greter ,plaese enter Smaller number");
+             g++;
+           }
+        }
+    </Script>
+</body>
+</html>
