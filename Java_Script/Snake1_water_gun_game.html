@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+</head>
+<body>
+    <script>
+          let s="SWG";
+          let num=Math.floor(Math.random()*3);
+          let comp=s[num];
+          
+          let user=prompt("Enter choice to play with computer");
+                 
+            if((user=='S' && comp=='W') || (user=='G' && comp=='S') || (user=='W'&&comp=='G'))
+            {
+               alert("User is the winner in this game");
+            }
+            else if(user==comp)
+            {
+                alert("Match is tie better luck next time");
+            }
+            else{
+                alert("Computer is the winner in this game ="+comp);    
+                
+            }
+
+          
+
+    </script>
+</body>
+</html>
