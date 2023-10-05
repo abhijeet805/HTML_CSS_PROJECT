@@ -31,6 +31,6 @@ let bu=document.querySelector(".this");
 bu.style.color="orange"
 
 //getElementsByTagName
-let t=document.getElementsByTagName("p");
+let t=document.getElementsByTagName("p")[0];
 console.log(t);
 console.log(document.querySelector(".card-title").getElementsByTagName("p"))
