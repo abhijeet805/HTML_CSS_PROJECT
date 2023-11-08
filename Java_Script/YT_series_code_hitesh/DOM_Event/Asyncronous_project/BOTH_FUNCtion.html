@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai Aur Java Script</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+</body>
+<script>
+    let changeme;
+   
+    const sayabhi=function(){
+     document.querySelector('h1').appendChild(document.createTextNode(" best JS series"));
+   };
+
+   document.querySelector('#start').addEventListener('click',function(){
+    changeme=setInterval(sayabhi,1000);
+   })
+
+  document.querySelector('#stop').addEventListener('click',function(e){
+     clearInterval(changeme);
+     console.log("Stopped"); 
+  })
+ 
+</script>
+</html>

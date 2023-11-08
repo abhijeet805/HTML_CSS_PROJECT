@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new node</title>
+</head>
+<body>
+     <div class="parent">
+        <div class="day">monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wedensday</div>
+        <div class="day">Thursday</div>
+     </div>
+</body>
+<script>
+   const parent=document.querySelector('.parent')
+   console.log(parent);
+//    Parent to child
+   console.log(parent.children);//It provide HTMLCollection
+   console.log(parent.children[1].innerHTML);
+
+   
+   for (let index = 0; index < parent.children.length; index++) {
+        console.log(parent.children[index].innerHTML);
+   } 
+
+   parent.children[2].style.color='green';
+   console.log(parent.firstElementChild);
+   console.log(parent.lastElementChild);
+
+//    child to parent
+
+let one=document.querySelector('.day')
+console.log(one);
+console.log(one.parentElement);
+console.log(one.nextElementSibling);
+
+// Nodes
+console.log("NODES:",parent.childNodes);
+</script>
+</html>

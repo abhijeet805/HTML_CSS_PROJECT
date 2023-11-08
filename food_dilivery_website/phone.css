@@ -1,0 +1,40 @@
+body{
+    /* background-color: aqua; */
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+  font-size: 1rem;
+  padding: 0px 10px;
+}
+
+/* Home */
+#home::before{
+ height: 480px;
+}
+#home{
+  height: 370px;
+  padding:2px 16px;
+}
+#home h1{
+  font-size: 35px;
+  
+}
+
+/* services */
+  .services{
+    flex-direction: column;
+  }
+
+/* client */
+#client-section{
+  overflow: hidden;
+}
+/* utility classes */

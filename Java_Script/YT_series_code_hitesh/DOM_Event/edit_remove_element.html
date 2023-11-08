@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <ul class="language">
+        <li>Java</li>
+        <li>TypeScript</li>
+        <li>python</li>
+     </ul>
+
+</body>
+<script>
+    //Edit 1st-Apporch
+    const secondli=document.querySelector("li:nth-child(2)");
+    // secondli.innerHTML="MOJO";
+  
+    const newli=document.createElement('li');
+    newli.textContent="mojo";
+    secondli.replaceWith(newli);
+  
+//   Edit 2nd-Approach
+  const a=document.querySelector("li:first-child");
+  a.outerHTML='<li>Ruby</li>';
+
+//Remove
+
+const b=document.querySelector("li:last-child");
+b.remove();
+
+</script>
+</html>
